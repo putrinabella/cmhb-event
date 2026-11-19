@@ -6,51 +6,54 @@
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
-  --color-primary: #f472b6;
-  --color-primary-focus: #e035a2;
+  --color-primary: #b45309; /* Emas tua / Amber gelap agar terbaca jelas di background terang */
+  --color-primary-focus: #92400e;
   --color-primary-content: #ffffff;
 
-  --color-secondary: #a855f7;
-  --color-secondary-focus: #9333ea;
-  --color-secondary-content: #ffffff;
+  --color-secondary: #1c1917; /* Hitam arang (Charcoal) */
+  --color-secondary-focus: #0c0a09;
+  --color-secondary-content: #f59e0b;
 
-  --color-accent: #d946ef;
-  --color-accent-focus: #a21caf;
+  --color-accent: #d97706; /* Emas hangat */
+  --color-accent-focus: #b45309;
   --color-accent-content: #ffffff;
 
-  --color-neutral: #3b2a3d;
-  --color-base-100: #fdf7fb;
-  --color-base-200: #f8e9f4;
-  --color-base-300: #edd2e7;
-  --color-base-content: #322435;
+  --color-neutral: #292524;
+  --color-base-100: #fafaf9; /* Putih gading bersih */
+  --color-base-200: #f5f5f4; /* Abu-abu sangat muda */
+  --color-base-300: #e7e5e4; /* Garis / border lembut */
+  --color-base-content: #1c1917; /* Teks hitam arang */
 
-  --color-info: #60a5fa;
-  --color-success: #34d399;
-  --color-warning: #fbbf24;
-  --color-error: #ef4444;
+  --color-info: #0284c7;
+  --color-success: #16a34a;
+  --color-warning: #eab308;
+  --color-error: #dc2626;
 }
 
 @plugin "daisyui/theme" {
   name: "dark";
-  --color-primary: #fd3db5;
-  --color-primary-focus: #e035a2;
-  --color-primary-content: #fff;
+  --color-primary: #eab308; /* Emas cerah (Metallic Gold) */
+  --color-primary-focus: #ca8a04;
+  --color-primary-content: #09090b; /* Teks hitam di atas tombol emas agar kontras tinggi */
 
-  --color-secondary: #61185f;
-  --color-secondary-focus: #4b104a;
-  --color-secondary-content: #fff;
+  --color-secondary: #27272a; /* Abu-abu gelap metalik */
+  --color-secondary-focus: #18181b;
+  --color-secondary-content: #fde047;
 
-  --color-accent: #b132a4;
-  --color-neutral: #1b1220;
-  --color-base-100: #1c1321;
-  --color-base-200: #27192e;
-  --color-base-300: #3b2a3d;
-  --color-base-content: #ead8ea;
+  --color-accent: #f59e0b; /* Emas keoranyean (Amber Gold) */
+  --color-accent-focus: #d97706;
+  --color-accent-content: #09090b;
 
-  --color-info: #9aa5ff;
-  --color-success: #6ce0b1;
-  --color-warning: #f8d36a;
-  --color-error: #ff6f9b;
+  --color-neutral: #18181b;
+  --color-base-100: #09090b; /* Hitam pekat (Obsidian Black) */
+  --color-base-200: #121215; /* Hitam sedikit terang untuk card/sidebar */
+  --color-base-300: #27272a; /* Hitam keabuan untuk border/hover */
+  --color-base-content: #f4f4f5; /* Putih lembut agar tidak menyilaukan mata */
+
+  --color-info: #38bdf8;
+  --color-success: #4ade80;
+  --color-warning: #facc15;
+  --color-error: #f87171;
 }
 
 @font-face {
