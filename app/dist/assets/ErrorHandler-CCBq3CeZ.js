@@ -1,0 +1,2 @@
+import{s as o}from"./SwalHelper-DW6-fGly.js";async function n(s,r="Terjadi kesalahan yang tidak diketahui."){let a=r;try{const e=s.response?.data||s;if(e?.errors&&typeof e.errors=="object"){const t=Object.values(e.errors).flat().join(`
+`);t&&(a=t)}else e?.meta?.message?a=e.meta.message:e?.message&&(a=e.message)}catch{}await o({title:"Gagal",text:a,icon:"error",confirmButtonText:"OK"})}export{n as h};

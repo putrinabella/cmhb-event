@@ -1,0 +1,35 @@
+# ======================
+# Git & editor
+# ======================
+.git
+.gitignore
+.github
+.vscode
+.idea
+
+# ======================
+# Node / Vite specific
+# ======================
+app/node_modules
+app/dist
+app/.vite
+app/coverage
+app/.eslintcache
+app/npm-debug.log
+app/yarn-error.log
+app/pnpm-debug.log
+
+# ======================
+# Env
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Docker & Docs
+# ======================
+docker-compose*.yml
+Dockerfile*
+Makefile
+README.md

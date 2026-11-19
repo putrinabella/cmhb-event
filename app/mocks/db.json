@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "id": "1MgX3GOsVwvE3NsQq8zWPIej1lrl",
+      "name": "Event copy",
+      "description": "Massachusetts haptic Generic web up",
+      "event_date": "2025-11-09",
+      "created_by": "dev.cmhb@gmail.com",
+      "created_at": "2025-10-21"
+    },
+    {
+      "id": "aa52ykzseKKeYdUOeQP0juN8l1K9",
+      "name": "Event generate",
+      "description": "York De-engineered Avon",
+      "event_date": "2025-10-24",
+      "created_by": "dev.cmhb@gmail.com",
+      "created_at": "2025-10-21"
+    }
+  ],
+
+  "reservations": [
+    {
+      "id": "1",
+      "guest_name": "John Doe",
+      "room": "A101",
+      "date": "2025-10-25"
+    },
+    {
+      "id": "2",
+      "guest_name": "Jane Smith",
+      "room": "B202",
+      "date": "2025-10-26"
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Staff",
+      "email": "staff@example.com"
+    }
+  ]
+}

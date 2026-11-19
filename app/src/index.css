@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: all;
+}
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #f472b6;
+  --color-primary-focus: #e035a2;
+  --color-primary-content: #ffffff;
+
+  --color-secondary: #a855f7;
+  --color-secondary-focus: #9333ea;
+  --color-secondary-content: #ffffff;
+
+  --color-accent: #d946ef;
+  --color-accent-focus: #a21caf;
+  --color-accent-content: #ffffff;
+
+  --color-neutral: #3b2a3d;
+  --color-base-100: #fdf7fb;
+  --color-base-200: #f8e9f4;
+  --color-base-300: #edd2e7;
+  --color-base-content: #322435;
+
+  --color-info: #60a5fa;
+  --color-success: #34d399;
+  --color-warning: #fbbf24;
+  --color-error: #ef4444;
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  --color-primary: #fd3db5;
+  --color-primary-focus: #e035a2;
+  --color-primary-content: #fff;
+
+  --color-secondary: #61185f;
+  --color-secondary-focus: #4b104a;
+  --color-secondary-content: #fff;
+
+  --color-accent: #b132a4;
+  --color-neutral: #1b1220;
+  --color-base-100: #1c1321;
+  --color-base-200: #27192e;
+  --color-base-300: #3b2a3d;
+  --color-base-content: #ead8ea;
+
+  --color-info: #9aa5ff;
+  --color-success: #6ce0b1;
+  --color-warning: #f8d36a;
+  --color-error: #ff6f9b;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Gunakan font global */
+body {
+  font-family: "poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-10px) scale(1.2);
+    opacity: 0.7;
+  }
+}
+@keyframes spin-ball-0 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg) scale(1);
+    z-index: 15;
+  }
+  25% {
+    transform: translate3d(-20px, -25px, 0) rotate(-15deg) scale(1.12);
+    z-index: 20;
+  }
+  50% {
+    transform: translate3d(15px, -10px, 0) rotate(10deg) scale(0.9);
+    z-index: 10;
+  }
+  75% {
+    transform: translate3d(-10px, -15px, 0) rotate(-12deg) scale(1.06);
+    z-index: 18;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(0deg) scale(1);
+    z-index: 15;
+  }
+}
